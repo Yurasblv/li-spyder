@@ -16,5 +16,5 @@ Python CLI script to extract recent posts from a LinkedIn profile using Playwrig
 ## Notes
 
 - Browser context is stored in `_ctx.json` for session reuse.  
-- Results are saved in `results.json`.  
+- Results are saved in `our/li_posts.json`.  
 - Logs progress in console with `time - LEVEL - message` format.  
