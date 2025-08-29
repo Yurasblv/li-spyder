@@ -123,7 +123,7 @@ class LinkedinSpider:
     def run(self) -> None:
         with sync_playwright() as pw:
             ctx = pw.chromium.launch_persistent_context(
-                executable_path=r"C:\Program Files\Google\Chrome\Application\chrome.exe" ,
+                executable_path="" , # WARN: Set default path to chromium/chrome
                 user_data_dir=self.user_data_dir,
                 headless=False,
             )
